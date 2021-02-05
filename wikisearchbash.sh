@@ -1,6 +1,6 @@
 #!/bin/sh
 if [[ -z "$1" ]]; then
-  echo "Please enter search word"
+  echo "Enter your word"
   read word
 elif [[ -n "$1" ]]; then
   word="$*"
@@ -8,7 +8,7 @@ fi
 
 word="${word// /_}"
 
-echo "...Searchig for $word..."
+echo "...looking for $word..."
 
 link="https://en.wikipedia.org/wiki/$word"
 
