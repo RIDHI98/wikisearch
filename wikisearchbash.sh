@@ -8,7 +8,7 @@ fi
 
 word="${word// /_}"
 
-echo "...looking for $word..."
+echo "looking for $word"
 
 link="https://en.wikipedia.org/wiki/$word"
 
